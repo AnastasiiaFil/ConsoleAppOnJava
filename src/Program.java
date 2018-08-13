@@ -20,6 +20,7 @@ public class Program
 */
     public static void main(String[] args)
     {
+    /*
         System.out.println("1. Circle");
         System.out.println("2. Rectangle");
         System.out.println("3. Triangle");
@@ -98,5 +99,9 @@ public class Program
             else
                 System.out.println("Rectangle Square: " + triangle.Square());
         }
+    */
+        MyString str = new MyString("A ta ta");
+        System.out.println(str.GetMyString());
+        System.out.println(str.MyConcat(". I like apples."));
     }
 }
