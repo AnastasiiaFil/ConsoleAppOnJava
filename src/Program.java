@@ -100,8 +100,16 @@ public class Program
                 System.out.println("Rectangle Square: " + triangle.Square());
         }
     */
-        MyString str = new MyString("A ta ta");
-        System.out.println(str.GetMyString());
-        System.out.println(str.MyConcat(". I like apples."));
+        //MyString str = new MyString("A ta ta");
+        //System.out.println(str.GetMyString());
+        //System.out.println(str.MyConcat(". I like apples."));
+
+
+
+
+        My_Str my_str = new My_Str(new char[] {'a','b','c'});
+        System.out.println(my_str.GetStr());
+        System.out.println(my_str.MyCnct(new char[] {'b','a','c'}));
+
     }
 }
